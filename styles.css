@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(66.jpg);
+    /* background: rgb(19, 74, 118); */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a {
+    color: rgb(52, 52, 133);
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 60px 9% 0;
+    color: #fff;
+}
+
+.home-info h1 {
+    font-size: 55px;
+}
+
+.home-info h3 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.home-info p {
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-sci {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(52, 52, 133);
+    border: 2px solid rgb(52, 52, 133);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(52, 52, 133);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci {
+    margin-left: 20px;
+}
+
+.home-info .btn-sci .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid rgb(52, 52, 133);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home-info .btn-sci .sci a:hover {
+    background-color: rgb(52, 52, 133);
+    color: #fff;
+    box-shadow: 0 0 10px rgb(52, 52, 133);
+}
+
+.home-img .img-box {
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.home-img .img-box .img-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(52, 52, 133);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-img .img-box .img-item img {
+    position: absolute;
+    top: 30px;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+}
+
+
+/* buat folder dokumentasi */
+
+.h1 {
+    color: #fff;
+    text-align: right;
+    margin-top: 100PX;
+}
+
+.home .haee {
+    margin-left: 80px;
+    text-align: center;
+    color: white;
+}
+
+/* ############ */
+/* Sections */
+.section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: rgb(16, 16, 22);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
